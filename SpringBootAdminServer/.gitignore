@@ -1,0 +1,9 @@
+.svn
+.project
+.settings
+/target/
+.classpath
+.factorypath
+/bin/
+
+/.apt_generated/
