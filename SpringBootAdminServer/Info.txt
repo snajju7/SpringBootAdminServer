@@ -1,0 +1,14 @@
+SpringBoot admin server is to monitor the application. 
+
+Below are the configurtion that need to available in client. And endpoints of actuators should be whitelisted from security.
+
+====================================================
+spring.boot.admin.client.url=http://localhost:18100  
+management.endpoints.web.exposure.include=*
+management.endpoint.health.show-details=always
+spring.application.name=dev-server
+
+##############login do admin-server:#################
+spring.boot.admin.client.username=admin
+spring.boot.admin.client.password=admin
+=====================================================
